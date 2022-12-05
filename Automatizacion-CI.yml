@@ -4,15 +4,9 @@ name: PowerAppsTestAutomation-$(date:yyyyMMdd)$(rev:.r)
 
 resources:
   repositories:
-    - repository: PowerAppsTestAutomation
-      type: github
-      # GitHub Repo(e.g. <FORK>/PowerAppsTestAutomation)
-      # Recommended to Fork or Duplicate if custom auth flows are required
-      name: microsoft/PowerAppsTestAutomation
+    - repository: self
+      type: git
       ref: master
-      # Name of the GitHub OAuth ADO Service Connection
-      endpoint: <ADO GitHub OAuth Service Connection Name>
-
 parameters:
  - name: image
    displayName: Pool Image
