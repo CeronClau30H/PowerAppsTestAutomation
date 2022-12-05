@@ -6,7 +6,7 @@ resources:
   repositories:
     - repository: PowerAppsTestAutomation
       name: PowerAppsTestAutomation
-      type: git
+      type: github
       ref: master
 parameters:
  - name: image
