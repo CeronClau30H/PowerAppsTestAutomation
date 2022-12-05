@@ -5,7 +5,7 @@ name: PowerAppsTestAutomation-$(date:yyyyMMdd)$(rev:.r)
 resources:
   repositories:
     - repository: PowerAppsTestAutomation
-      name: PowerAppsTestAutomation
+      name: CeronClau30H/PowerAppsTestAutomation
       type: github
       ref: master
 parameters:
