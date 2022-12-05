@@ -8,6 +8,7 @@ resources:
       name: CeronClau30H/PowerAppsTestAutomation
       type: github
       ref: master
+      endpoint: PowerAppsAutomation
 parameters:
  - name: image
    displayName: Pool Image
